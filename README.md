@@ -1,5 +1,5 @@
-# Slash screen demo
+# Splash screen demo
 
-this project is for testing perpose
+this is
 
 
