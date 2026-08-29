@@ -1,5 +1,5 @@
-# test1
+# Splash screen demo
 
-this project is for testing perpose
+this is 'Uber' app style splash screen demo for trial
 
 
