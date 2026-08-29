@@ -283,7 +283,6 @@ class LoaderPainter extends CustomPainter {
       backgroundPaint,
     );
 
-
     // MOVING WHITE ARC
 
     final foregroundPaint = Paint()
