@@ -103,8 +103,8 @@ class SplashScreenState extends State<SplashScreen>
                     scale: logoScale.value,
 
                     child: Image.asset('assets/images/logo1.jpg',
-                          height: 500,
-                          width: 500,
+                          height: 550,
+                          width: 550,
                     ),
                   ),
                 );

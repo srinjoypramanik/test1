@@ -21,7 +21,7 @@ class HomePage extends StatelessWidget {
                size: 30,
             ),
 
-             SizedBox(width: 4),
+             SizedBox(width: 3),
 
              Text(
               'Uber',
