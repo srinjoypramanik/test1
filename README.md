@@ -1,4 +1,4 @@
-# Uber Style Splash Screen
+# Uber-inspired Style Splash Screen
 
 A simple and modern **Uber-inspired Splash Screen** built using **Flutter** and **Dart**.
 
@@ -40,3 +40,12 @@ lib/
 assets/
 └── images/
     └── logo.jpg
+
+```
+# Author
+
+Srinjoy Pramanik
+
+Computer Science and Engineering Student
+
+Ahsanullah University of Science and Technology (AUST)
