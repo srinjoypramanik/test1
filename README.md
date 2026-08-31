@@ -47,4 +47,5 @@ assets/
 Srinjoy Pramanik
 
 Computer Science and Engineering Student
--Ahsanullah University of Science and Technology (AUST)
+
+Ahsanullah University of Science and Technology (AUST)
