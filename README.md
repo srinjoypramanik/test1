@@ -29,6 +29,8 @@ This project was created as a practice project to learn Flutter UI development, 
 
 ## Project Structure
 
+
+```text
 lib/
 │
 ├── main.dart
