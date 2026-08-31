@@ -27,7 +27,7 @@ class HomePage extends StatelessWidget {
               'Uber',
               style: TextStyle(
                 color: Colors.black,
-                fontSize: 25,
+                fontSize: 27,
                 fontWeight: FontWeight.bold,
               ),
             ),
@@ -39,7 +39,7 @@ class HomePage extends StatelessWidget {
         child: Text('WELCOME TO UBER',
           style: TextStyle(
             color: Colors.white,
-            fontSize: 35,
+            fontSize: 37,
             fontWeight: FontWeight.bold,
           ),
         ),

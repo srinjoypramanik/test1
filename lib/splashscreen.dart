@@ -103,8 +103,8 @@ class SplashScreenState extends State<SplashScreen>
                     scale: logoScale.value,
 
                     child: Image.asset('assets/images/logo1.jpg',
-                          height: 550,
-                          width: 550,
+                          height: 600,
+                          width: 600,
                     ),
                   ),
                 );
@@ -148,7 +148,7 @@ class SplashScreenState extends State<SplashScreen>
                     style: TextStyle(
                       color: Colors.white24,
                       fontSize: 15,
-                      fontWeight: FontWeight.w600,
+                      fontWeight: FontWeight.w500,
                       letterSpacing: 3.0,
                     ),
                   ),
@@ -159,7 +159,7 @@ class SplashScreenState extends State<SplashScreen>
                     style: TextStyle(
                       color: Colors.white24,
                       fontSize: 15,
-                      fontWeight: FontWeight.w600,
+                      fontWeight: FontWeight.w500,
                       letterSpacing: 3.0,
                     ),
                   ),
@@ -170,7 +170,7 @@ class SplashScreenState extends State<SplashScreen>
                     style: TextStyle(
                       color: Colors.white24,
                       fontSize: 15,
-                      fontWeight: FontWeight.w600,
+                      fontWeight: FontWeight.w500,
                       letterSpacing: 3.0,
                     ),
                   ),
