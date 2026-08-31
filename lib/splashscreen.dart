@@ -14,6 +14,7 @@ class SplashScreenState extends State<SplashScreen>
 
   late AnimationController logoController;
 
+
   late Animation<double> logoScale;
   late Animation<double> logoOpacity;
 
