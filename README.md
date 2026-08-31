@@ -1,4 +1,4 @@
-# Uber Style Splash Screen
+# Uber-inspired Style Splash Screen
 
 A simple and modern **Uber-inspired Splash Screen** built using **Flutter** and **Dart**.
 
