@@ -40,3 +40,11 @@ lib/
 assets/
 └── images/
     └── logo.jpg
+
+```
+#Author
+
+Srinjoy Pramanik
+
+Computer Science and Engineering Student
+Ahsanullah University of Science and Technology (AUST)
