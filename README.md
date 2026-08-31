@@ -42,7 +42,7 @@ assets/
     └── logo.jpg
 
 ```
-#Author
+# Author
 
 Srinjoy Pramanik
 
