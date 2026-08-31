@@ -1,5 +1,5 @@
 # Splash screen demo
 
-this is 'Uber' app style splash screen demo for trial
+this is 'Uber' app style splash screen demo for assignment
 
 
