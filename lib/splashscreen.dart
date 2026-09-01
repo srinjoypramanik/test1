@@ -6,14 +6,13 @@ class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
 
   @override
-  State<SplashScreen> createState() => SplashScreenState();
+  State<SplashScreen> createState() => SplashScreenState();    //gg
 }
 
 class SplashScreenState extends State<SplashScreen>
     with TickerProviderStateMixin {     // AnimationController needs vsync given by this
 
   late AnimationController logoController;
-
 
   late Animation<double> logoScale;
   late Animation<double> logoOpacity;
@@ -24,11 +23,11 @@ class SplashScreenState extends State<SplashScreen>
 
 
 
-// LOGO ANIMATION
+// ANIMATION
 
     logoController = AnimationController(
       vsync: this,
-      duration: const Duration(milliseconds: 6000),
+      duration: const Duration(seconds: 6),
     );
 
     logoScale = Tween<double>(
@@ -60,7 +59,7 @@ class SplashScreenState extends State<SplashScreen>
 
 
     Future.delayed(
-       Duration(seconds: 10),
+       Duration(seconds: 12),
           () {
         if (!mounted){
           return;}

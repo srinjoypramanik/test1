@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+   const HomePage({super.key});    //constructor create object of class
 
   @override
   Widget build(BuildContext context) {
@@ -15,16 +15,14 @@ class HomePage extends StatelessWidget {
         title: Row(
           mainAxisSize: MainAxisSize.min,     //Fix row size horizontally
           children: [
-             Icon(
-              Icons.local_taxi_rounded,
+             Icon(Icons.local_taxi_rounded,
               color: Colors.black,
                size: 30,
             ),
 
              SizedBox(width: 3),
 
-             Text(
-              'Uber',
+             Text('Uber',
               style: TextStyle(
                 color: Colors.black,
                 fontSize: 27,
