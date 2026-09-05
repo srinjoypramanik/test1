@@ -3,7 +3,7 @@ import 'homepage.dart';
 
 
 class SplashScreen extends StatefulWidget {
-  const SplashScreen({super.key});
+   SplashScreen();
 
   @override
   State<SplashScreen> createState() => SplashScreenState();    //gg
