@@ -38,8 +38,8 @@ class SplashScreenState extends State<SplashScreen>
     );
 
     logoOpacity = Tween<double>(
-      begin: 0.0,     //Starting transparency
-      end: 1.0,       //Final transparency
+      begin: 0.0,     
+      end: 1.0,      
     ).animate(
       CurvedAnimation(
         parent: logoController,
@@ -47,16 +47,10 @@ class SplashScreenState extends State<SplashScreen>
       ),
     );
 
-
-
-
     logoController.forward();
 
-
-
-
     Future.delayed(
-       Duration(seconds: 12),
+       Duration(seconds: 15),
           () {
         Navigator.pushReplacement(
           context,
@@ -68,9 +62,6 @@ class SplashScreenState extends State<SplashScreen>
     );
 
   }
-
-
-
 
   @override
   void dispose() {
@@ -126,8 +117,6 @@ class SplashScreenState extends State<SplashScreen>
             ),
           ),
 
-          // BOTTOM LABEL
-
           Positioned(
             left: 0,
             right: 0,
@@ -135,7 +124,7 @@ class SplashScreenState extends State<SplashScreen>
 
             child: Center(
               child: Column(
-                mainAxisSize: MainAxisSize.min,  //Fix column size vertically
+                mainAxisSize: MainAxisSize.min, 
 
                 children: [
 
