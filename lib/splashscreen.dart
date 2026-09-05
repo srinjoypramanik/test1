@@ -6,11 +6,11 @@ class SplashScreen extends StatefulWidget {
    SplashScreen();
 
   @override
-  State<SplashScreen> createState() => SplashScreenState();    //gg
+  State<SplashScreen> createState() => SplashScreenState();    
 }
 
 class SplashScreenState extends State<SplashScreen>
-    with TickerProviderStateMixin {     // AnimationController needs vsync given by this
+    with TickerProviderStateMixin {  
 
   late AnimationController logoController;
 
@@ -22,17 +22,14 @@ class SplashScreenState extends State<SplashScreen>
     super.initState();
 
 
-
-// ANIMATION
-
     logoController = AnimationController(
       vsync: this,
       duration: const Duration(seconds: 6),
     );
 
     logoScale = Tween<double>(
-      begin: 0.50,      //Starting size
-      end: 1.0,         //Final size
+      begin: 0.60,    
+      end: 1.0,       
       ).animate(
       CurvedAnimation(
         parent: logoController,
